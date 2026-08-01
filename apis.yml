@@ -1,7 +1,29 @@
 aid: shift
-name: Shift
-description: Shift is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shift.png
+name: Shift Technology
+description: >-
+  Shift Technology is a Paris-founded InsurTech company delivering AI-native
+  decisioning and automation for the global insurance industry. Its purpose-built
+  AI agents automate core insurance workflows — claims coverage and liability,
+  fraud and risk detection, subrogation, injury evaluation, payment integrity,
+  and process orchestration — for property & casualty and health insurers. Shift
+  serves 120+ insurers across 30+ countries, including 100% of the top five U.S.
+  P&C carriers, and has analyzed more than four billion policies, claims, and
+  documents covering 350M+ policyholders. The company also operates the Insurance
+  Data Network (IDN). Shift is a General Catalyst portfolio company; it markets an
+  enterprise, contact-sales product and does not publish a public developer
+  portal, API reference, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/shift/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Insurance
+- InsurTech
+- Artificial Intelligence
+- Fraud Detection
+- Claims Automation
+- Decision Automation
+- Machine Learning
+- Enterprise SaaS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/shift-domain-security.yml
+- type: Website
+  url: https://www.shift-technology.com
+- type: Blog
+  url: https://www.shift-technology.com/resources
+- type: TrustCenter
+  url: https://www.shift-technology.com/security
+- type: Compliance
+  url: security/shift-trust-center.yml
+- type: Careers
+  url: https://www.shift-technology.com/careers
+- type: TermsOfService
+  url: https://www.shift-technology.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.shift-technology.com/privacy-notice
+- type: SignUp
+  url: https://www.shift-technology.com/demo-request
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

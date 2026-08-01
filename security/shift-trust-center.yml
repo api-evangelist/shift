@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.shift-technology.com/security
+url: https://www.shift-technology.com/security
+certifications:
+- HITRUST
+- ISO 27701
+- AICPA SOC
+- GDPR
+- HDS (Hébergeur de Données de Santé)
+- AFAQ
+notes: >-
+  Shift Technology publishes its security and compliance posture on its Security
+  page (contact-sales enterprise product; no self-serve trust portal). Named,
+  badge-displayed attestations include HITRUST, ISO 27701 (Privacy Information
+  Management System), an AICPA SOC attestation, AFAQ certification, and AFAQ
+  Health Data Hosting (HDS) for European health data. The company states it is
+  "GDPR-compliant by design" and does not transfer European personal health data
+  outside the European Economic Area. Additional controls listed: encryption,
+  recurring internal audits (quarterly/semi-annual/annual), continuous system
+  monitoring, and secured facilities with restricted access.
+evidence:
+- source: https://www.shift-technology.com/security
+  keywords: [hitrust, iso 27701, aicpa, gdpr, hds, afaq]
